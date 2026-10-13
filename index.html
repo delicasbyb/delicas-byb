@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Delicias BYB: productos artesanales hechos a base de maní.">
+  <title>Delicias BYB | Sabor hecho a mano</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header class="barra-navegacion">
+    <a class="marca" href="#inicio" aria-label="Delicias BYB, inicio">
+      <span class="marca-icono">BYB</span>
+      <span>Delicias <strong>byb</strong></span>
+    </a>
+    <nav aria-label="Navegación principal">
+      <a href="#productos">Productos</a>
+      <a href="#historia">Nuestra historia</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-contenido">
+        <p class="etiqueta">Hecho con cariño · 100% artesanal</p>
+        <h1>El maní también<br><em>puede ser un recuerdo.</em></h1>
+        <p class="hero-texto">Sabores honestos, preparados a mano y pensados para compartir momentos deliciosos.</p>
+        <a class="boton boton-principal" href="#productos">Conoce nuestros productos <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-arte">
+        <img src="fotos/WhatsApp%20Image%202026-09-26%20at%2012.09.50%20PM%20(2).jpeg" alt="Tres presentaciones de maní Delicias BYB">
+      </div>
+    </section>
+
+    <section class="productos seccion" id="productos">
+      <div class="encabezado-seccion">
+        <div>
+          <p class="etiqueta">Nuestros favoritos</p>
+          <h2>Dos formas de<br><em>disfrutar el maní.</em></h2>
+        </div>
+        <p class="intro-seccion">Recetas sencillas, ingredientes seleccionados y ese toque casero que se nota desde el primer bocado.</p>
+      </div>
+      <div class="rejilla-productos">
+        <article class="producto producto-claro">
+          <div class="producto-imagen crema-imagen">
+            <span class="producto-numero">01</span>
+            <img class="foto-producto foto-producto-molido" src="fotos/WhatsApp%20Image%202026-09-26%20at%2012.09.50%20PM%20(1).jpeg" alt="Envase de maní forma molido de 250 gramos">
+          </div>
+          <div class="producto-info">
+            <p class="producto-tipo">Molido · 250 g</p>
+            <h3>Maní forma molido</h3>
+            <p>Maní molido, listo para sumar su sabor y textura a tus recetas favoritas.</p>
+          </div>
+        </article>
+        <article class="producto producto-oscuro">
+          <div class="producto-imagen crocante-imagen">
+            <span class="producto-numero">02</span>
+            <img class="foto-producto" src="fotos/WhatsApp%20Image%202026-09-26%20at%2012.09.52%20PM%20(1).jpeg" alt="Envase de maní forma quebrado de 250 gramos">
+          </div>
+          <div class="producto-info">
+            <p class="producto-tipo">Quebrado · 250 g</p>
+            <h3>Maní forma quebrado</h3>
+            <p>Trozos de maní para dar un toque crocante a tus preparaciones y momentos para compartir.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="historia seccion" id="historia">
+      <div class="historia-foto">
+        <img class="foto-marco" src="fotos/historia.jpeg" alt="Productora de Delicias BYB junto a sus productos de maní">
+        <p class="nota-foto">Pequeños lotes,<br>grandes detalles.</p>
+      </div>
+      <div class="historia-contenido">
+        <p class="etiqueta">Cómo empezó</p>
+        <h2>Una idea sencilla,<br><em>hecha con corazón.</em></h2>
+        <p>Delicias BYB nació en una cocina familiar, entre el aroma del maní recién tostado y las ganas de crear algo propio. Empezamos preparando pequeñas cantidades para compartir con quienes más queríamos.</p>
+        <p>Con cada frasco llegaron nuevas historias, recomendaciones y personas que se enamoraron de nuestro sabor artesanal. Hoy seguimos trabajando igual: con paciencia, cuidado y mucho cariño en cada preparación.</p>
+        <div class="firma">Con cariño, <strong>BYB</strong></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="marca marca-footer"><span class="marca-icono">BYB</span><span>Delicias <strong>byb</strong></span></div>
+    <p>Maní hecho para compartir.</p>
+    <a class="flecha-arriba" href="#inicio" aria-label="Volver al inicio">↑</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
